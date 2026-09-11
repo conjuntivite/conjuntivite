@@ -1,10 +1,30 @@
-# Olá, eu sou conjuntivite 👋
+<h1>Olá <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>, eu sou o <strong>conjuntivite</strong> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full-Stack;Seguran%C3%A7a+Eletr%C3%B4nica+%26+CFTV;JavaScript+%2F+Node.js+%2F+React;Construindo+ferramentas+pra+resolver+problema+real)](https://git.io/typing-svg)
+
+[![GitHub followers](https://img.shields.io/github/followers/conjuntivite?label=Seguidores&style=social)](https://github.com/conjuntivite)
+![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=conjuntivite.conjuntivite)
 
 Desenvolvedor full-stack com foco em **soluções pra segurança eletrônica e CFTV** — do
 levantamento técnico à automação de orçamento e instalação. Gosto de construir ferramentas que
 resolvem um problema real do dia a dia, não só código bonito no vácuo.
+
+---
+
+### 👨‍💻 Sobre mim
+
+```javascript
+const conjuntivite = {
+  papel: "Desenvolvedor Full-Stack",
+  foco: ["segurança eletrônica", "CFTV", "automação de orçamento"],
+  stack: {
+    frontend: ["React", "Vite", "TailwindCSS", "React Flow"],
+    backend: ["Node.js (puro, sem framework)", "MongoDB"],
+    mapas: ["Leaflet", "MapLibre", "OpenStreetMap"],
+  },
+  filosofia: "ferramenta que resolve problema real > código bonito no vácuo",
+};
+```
 
 ---
 
@@ -39,6 +59,16 @@ fechado) com controle de acesso.
 
 ![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=conjuntivite&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=conjuntivite&layout=compact&theme=tokyonight&hide_border=true)
+
+![Streak stats](https://github-readme-streak-stats.herokuapp.com/?user=conjuntivite&theme=tokyonight&hide_border=true)
+
+<details>
+<summary>🏆 Troféus</summary>
+<br>
+
+![Troféus](https://github-profile-trophy.vercel.app/?username=conjuntivite&theme=tokyonight&no-frame=true&row=1&column=7)
+
+</details>
 
 ---
 
