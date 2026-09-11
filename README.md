@@ -1,4 +1,4 @@
-<h1>Olá <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>, eu sou o <strong>conjuntivite</strong> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h1>
+<h1>Olá <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>, eu sou o <strong>conjuntivite</strong> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="">200</h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full-Stack;Seguran%C3%A7a+Eletr%C3%B4nica+%26+CFTV;JavaScript+%2F+Node.js+%2F+React;Construindo+ferramentas+pra+resolver+problema+real)](https://git.io/typing-svg)
 
