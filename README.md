@@ -57,8 +57,6 @@ fechado) com controle de acesso.
 
 ### 📊 Estatísticas
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=conjuntivite&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=conjuntivite&layout=compact&theme=tokyonight&hide_border=true)
 
 ![Streak stats](https://github-readme-streak-stats.herokuapp.com/?user=conjuntivite&theme=tokyonight&hide_border=true)
 
