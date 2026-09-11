@@ -72,6 +72,13 @@ fechado) com controle de acesso.
 
 ---
 
+### ⏱️ Tempo de código (WakaTime)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ### 🐍 Atividade recente
 
 ![Snake animation](https://raw.githubusercontent.com/conjuntivite/conjuntivite/output/github-contribution-grid-snake.svg)
