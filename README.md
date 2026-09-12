@@ -73,15 +73,13 @@ fechado) com controle de acesso.
 ### ⏱️ Tempo de código (WakaTime)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-3-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 43 Bytes Usado no armazenamento do GitHub 
+> 📦 433 Bytes Usado no armazenamento do GitHub 
  > 
-> 🏆 32 Contribuições no ano de 2026
+> 🏆 35 Contribuições no ano de 2026
  > 
 > 🚫 Não aberto para contratação
  > 
@@ -89,51 +87,6 @@ fechado) com controle de acesso.
  > 
 > 🔑 0 Repositórios Privados 
  > 
-**Eu sou diurno 🐤** 
-
-```text
-🌞 Manhã                  2 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-🌆 Tarde                  22 commits          ████████████████████░░░░░   78.57 % 
-🌃 Noite                  4 commits           ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-🌙 Madrugada              0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-```
-📅 **Sou mais produtivo em Sexta-Feira** 
-
-```text
-Segunda-Feira            1 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
-Terça-Feira              5 commits           ████░░░░░░░░░░░░░░░░░░░░░   17.86 % 
-Quarta-Feira             2 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-Quinta-Feira             7 commits           ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
-Sexta-Feira              11 commits          ██████████░░░░░░░░░░░░░░░   39.29 % 
-Sábado                   0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Domingo                  2 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-```
-
-
-📊 **Esta semana eu gastei meu tempo em** 
-
-```text
-🕑︎ Fuso horário: America/Sao_Paulo
-
-💬 Linguagens de programação: 
-Nenhuma atividade rastreada esta semana
-
-🔥 Editores: 
-Nenhuma atividade rastreada esta semana
-
-🐱‍💻 Projetos: 
-Nenhuma atividade rastreada esta semana
-
-💻 Sistema operacional: 
-Nenhuma atividade rastreada esta semana
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
 **Eu geralmente programo em JavaScript** 
 
 ```text
@@ -147,7 +100,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 11/09/2026 18:59:06 UTC
+ Last Updated on 12/09/2026 03:40:25 UTC
 <!--END_SECTION:waka-->
 
 ---
