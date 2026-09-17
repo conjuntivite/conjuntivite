@@ -73,15 +73,15 @@ fechado) com controle de acesso.
 ### ⏱️ Tempo de código (WakaTime)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-36%20hrs%205%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-39%20hrs%2020%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-36%20hrs%2026%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-39%20hrs%2056%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-27-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 497 Bytes Usado no armazenamento do GitHub 
+> 📦 511 Bytes Usado no armazenamento do GitHub 
  > 
 > 🏆 43 Contribuições no ano de 2026
  > 
@@ -118,48 +118,49 @@ Domingo                  2 commits           █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-JavaScript               9 hrs 49 mins       ████████████████░░░░░░░░░   63.25 % 
-Markdown                 2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.78 % 
-Git                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
-YAML                     42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 % 
-Text                     38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 % 
+JavaScript               11 hrs 30 mins      ████████████████░░░░░░░░░   65.68 % 
+Markdown                 2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.05 % 
+Git                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.93 % 
+YAML                     43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 % 
+Text                     40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.81 % 
 
 🔥 Editores: 
-Claude Code              15 hrs 29 mins      █████████████████████████   99.68 % 
-Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
-Antigravity IDE          1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
+Claude Code              17 hrs 26 mins      █████████████████████████   99.61 % 
+Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
 
 🐱‍💻 Projetos: 
-COMPRADOR INVIOLAVEL     14 hrs 55 mins      ████████████████████████░   96.07 % 
-conjuntivite             21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
-conjuntivite-profile     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
+COMPRADOR INVIOLAVEL     16 hrs 54 mins      ████████████████████████░   96.51 % 
+conjuntivite             21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
+conjuntivite-profile     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
 test                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Sistema operacional: 
-Windows                  15 hrs 32 mins      █████████████████████████   99.99 % 
+Windows                  17 hrs 30 mins      █████████████████████████   99.99 % 
 Unknown OS               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 15 hrs 32 mins (99.98%)
+⏱ AI Coding Time: 17 hrs 30 mins (99.99%)
 
-✍️ 6,233 lines written by AI, 1 lines written by hand (99.98% AI-written)
+✍️ 5,008 lines written by AI, 1 lines written by hand (99.98% AI-written)
 
-🔤 4,684,996 Input Tokens, 1,106,494 Output Tokens
+🔤 5,408,599 Input Tokens, 1,063,931 Output Tokens
 
-💵 $194.83 Estimated AI Cost This Week
+💵 $192.30 Estimated AI Cost This Week
 
-🧠 12 AI Sessions, 150 AI Prompts
+🧠 13 AI Sessions, 166 AI Prompts
 
-Sonnet                   8,298 lines         █████████████████████████   100.00 % 
+Sonnet                   6,103 lines         █████████████████████████   100.00 % 
+Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.98% of written lines came from AI
-📝 Concise Prompter — average 312 characters per prompt
-🔁 Iterative Prompter — average 12 prompts per session
-🚀 High AI Trust — 0.01% of changed lines were hand-edited
+📝 Concise Prompter — average 425 characters per prompt
+🔁 Iterative Prompter — average 13 prompts per session
+🚀 High AI Trust — 0.02% of changed lines were hand-edited
 ```
 
 **Eu geralmente programo em JavaScript** 
@@ -175,7 +176,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 16/09/2026 03:41:26 UTC
+ Last Updated on 17/09/2026 03:41:25 UTC
 <!--END_SECTION:waka-->
 
 ---
