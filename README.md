@@ -118,48 +118,48 @@ Domingo                  2 commits           █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-JavaScript               11 hrs 30 mins      ████████████████░░░░░░░░░   65.68 % 
-Markdown                 2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.05 % 
-Git                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.93 % 
-YAML                     43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 % 
-Text                     40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.81 % 
+JavaScript               9 hrs 32 mins       ████████████████░░░░░░░░░   62.72 % 
+Markdown                 2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.18 % 
+Git                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
+Text                     40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
+YAML                     25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
 
 🔥 Editores: 
-Claude Code              17 hrs 26 mins      █████████████████████████   99.61 % 
-Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
-Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
+Claude Code              15 hrs 8 mins       █████████████████████████   99.55 % 
+Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 % 
+Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 % 
 
 🐱‍💻 Projetos: 
-COMPRADOR INVIOLAVEL     16 hrs 54 mins      ████████████████████████░   96.51 % 
-conjuntivite             21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
-conjuntivite-profile     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
+COMPRADOR INVIOLAVEL     14 hrs 35 mins      ████████████████████████░   95.98 % 
+conjuntivite             21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
+conjuntivite-profile     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.71 % 
 test                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Sistema operacional: 
-Windows                  17 hrs 30 mins      █████████████████████████   99.99 % 
+Windows                  15 hrs 12 mins      █████████████████████████   99.99 % 
 Unknown OS               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 17 hrs 30 mins (99.99%)
+⏱ AI Coding Time: 15 hrs 12 mins (99.98%)
 
-✍️ 5,008 lines written by AI, 1 lines written by hand (99.98% AI-written)
+✍️ 4,579 lines written by AI, 1 lines written by hand (99.98% AI-written)
 
-🔤 5,408,599 Input Tokens, 1,063,931 Output Tokens
+🔤 4,187,377 Input Tokens, 884,667 Output Tokens
 
-💵 $192.30 Estimated AI Cost This Week
+💵 $153.56 Estimated AI Cost This Week
 
-🧠 13 AI Sessions, 166 AI Prompts
+🧠 10 AI Sessions, 147 AI Prompts
 
-Sonnet                   6,103 lines         █████████████████████████   100.00 % 
+Sonnet                   5,633 lines         █████████████████████████   100.00 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.98% of written lines came from AI
-📝 Concise Prompter — average 425 characters per prompt
-🔁 Iterative Prompter — average 13 prompts per session
+📝 Concise Prompter — average 459 characters per prompt
+🔁 Iterative Prompter — average 15 prompts per session
 🚀 High AI Trust — 0.02% of changed lines were hand-edited
 ```
 
@@ -176,7 +176,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 17/09/2026 03:41:25 UTC
+ Last Updated on 18/09/2026 03:40:34 UTC
 <!--END_SECTION:waka-->
 
 ---
