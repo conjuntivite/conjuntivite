@@ -81,7 +81,7 @@ fechado) com controle de acesso.
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 511 Bytes Usado no armazenamento do GitHub 
+> 📦 512 Bytes Usado no armazenamento do GitHub 
  > 
 > 🏆 43 Contribuições no ano de 2026
  > 
@@ -118,49 +118,48 @@ Domingo                  2 commits           █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-JavaScript               9 hrs 32 mins       ████████████████░░░░░░░░░   62.72 % 
-Markdown                 2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.18 % 
-Git                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
-Text                     40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
-YAML                     25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
+JavaScript               5 hrs 15 mins       █████████████░░░░░░░░░░░░   51.82 % 
+Markdown                 2 hrs 25 mins       ██████░░░░░░░░░░░░░░░░░░░   23.95 % 
+Git                      51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.52 % 
+Text                     40 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.59 % 
+INI                      25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 % 
 
 🔥 Editores: 
-Claude Code              15 hrs 8 mins       █████████████████████████   99.55 % 
-Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 % 
-Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 % 
+Claude Code              10 hrs 4 mins       █████████████████████████   99.33 % 
+Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 % 
+Unknown Editor           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 % 
 
 🐱‍💻 Projetos: 
-COMPRADOR INVIOLAVEL     14 hrs 35 mins      ████████████████████████░   95.98 % 
-conjuntivite             21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
-conjuntivite-profile     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.71 % 
+COMPRADOR INVIOLAVEL     9 hrs 47 mins       ████████████████████████░   96.53 % 
+conjuntivite             21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
 test                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Sistema operacional: 
-Windows                  15 hrs 12 mins      █████████████████████████   99.99 % 
+Windows                  10 hrs 8 mins       █████████████████████████   99.99 % 
 Unknown OS               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 15 hrs 12 mins (99.98%)
+⏱ AI Coding Time: 10 hrs 7 mins (99.97%)
 
-✍️ 4,579 lines written by AI, 1 lines written by hand (99.98% AI-written)
+✍️ 1,572 lines written by AI, 1 lines written by hand (99.94% AI-written)
 
-🔤 4,187,377 Input Tokens, 884,667 Output Tokens
+🔤 2,846,647 Input Tokens, 484,837 Output Tokens
 
-💵 $153.56 Estimated AI Cost This Week
+💵 $111.15 Estimated AI Cost This Week
 
-🧠 10 AI Sessions, 147 AI Prompts
+🧠 8 AI Sessions, 105 AI Prompts
 
-Sonnet                   5,633 lines         █████████████████████████   100.00 % 
+Sonnet                   3,017 lines         █████████████████████████   100.00 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.98% of written lines came from AI
-📝 Concise Prompter — average 459 characters per prompt
-🔁 Iterative Prompter — average 15 prompts per session
-🚀 High AI Trust — 0.02% of changed lines were hand-edited
+🤖 AI-Driven — 99.94% of written lines came from AI
+📝 Concise Prompter — average 376 characters per prompt
+🔁 Iterative Prompter — average 13 prompts per session
+🚀 High AI Trust — 0.06% of changed lines were hand-edited
 ```
 
 **Eu geralmente programo em JavaScript** 
@@ -176,7 +175,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 18/09/2026 03:40:34 UTC
+ Last Updated on 19/09/2026 03:39:46 UTC
 <!--END_SECTION:waka-->
 
 ---
