@@ -18,7 +18,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: conjuntivite
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push output to output branch
         uses: crazy-max/ghaction-github-pages@v4
