@@ -113,17 +113,17 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 ### ⏱️ Tempo de código (WakaTime)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-45%20hrs%205%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-45%20hrs%2034%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-45%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-46%20hrs%2018%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-30-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 1.8 kB Usado no armazenamento do GitHub 
+> 📦 2.0 kB Usado no armazenamento do GitHub 
  > 
-> 🏆 59 Contribuições no ano de 2026
+> 🏆 69 Contribuições no ano de 2026
  > 
 > 🚫 Não aberto para contratação
  > 
@@ -134,21 +134,21 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 **Eu sou diurno 🐤** 
 
 ```text
-🌞 Manhã                  10 commits          █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
-🌆 Tarde                  40 commits          ██████████████████░░░░░░░   72.73 % 
-🌃 Noite                  5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+🌞 Manhã                  17 commits          ██████░░░░░░░░░░░░░░░░░░░   25.76 % 
+🌆 Tarde                  44 commits          █████████████████░░░░░░░░   66.67 % 
+🌃 Noite                  5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.58 % 
 🌙 Madrugada              0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 ```
-📅 **Sou mais produtivo em Terça-Feira** 
+📅 **Sou mais produtivo em Quinta-Feira** 
 
 ```text
-Segunda-Feira            13 commits          ██████░░░░░░░░░░░░░░░░░░░   23.64 % 
-Terça-Feira              16 commits          ███████░░░░░░░░░░░░░░░░░░   29.09 % 
-Quarta-Feira             3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.45 % 
-Quinta-Feira             7 commits           ███░░░░░░░░░░░░░░░░░░░░░░   12.73 % 
-Sexta-Feira              14 commits          ██████░░░░░░░░░░░░░░░░░░░   25.45 % 
+Segunda-Feira            13 commits          █████░░░░░░░░░░░░░░░░░░░░   19.70 % 
+Terça-Feira              16 commits          ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+Quarta-Feira             3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+Quinta-Feira             18 commits          ███████░░░░░░░░░░░░░░░░░░   27.27 % 
+Sexta-Feira              14 commits          █████░░░░░░░░░░░░░░░░░░░░   21.21 % 
 Sábado                   0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Domingo                  2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.64 % 
+Domingo                  2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
 ```
 
 
@@ -158,42 +158,43 @@ Domingo                  2 commits           █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-JavaScript               4 hrs 58 mins       █████████████████████░░░░   83.17 % 
-Markdown                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.68 % 
-JSON                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
-Text                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.08 % 
-Other                    6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.79 % 
+JavaScript               5 hrs               ███████████████████░░░░░░   77.43 % 
+Markdown                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.01 % 
+CSS                      22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
+JSON                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
+Text                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
 
 🔥 Editores: 
-Claude Code              5 hrs 56 mins       █████████████████████████   99.48 % 
-Antigravity IDE          1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 % 
+Claude Code              6 hrs 25 mins       █████████████████████████   99.47 % 
+Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 % 
 
 🐱‍💻 Projetos: 
-COMPRADOR INVIOLAVEL     5 hrs 58 mins       █████████████████████████   100.00 % 
+COMPRADOR INVIOLAVEL     6 hrs 28 mins       █████████████████████████   100.00 % 
 
 💻 Sistema operacional: 
-Windows                  5 hrs 58 mins       █████████████████████████   100.00 % 
+Windows                  6 hrs 28 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 58 mins (100.0%)
+⏱ AI Coding Time: 6 hrs 28 mins (100.0%)
 
-✍️ 817 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 863 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 1,751,359 Input Tokens, 355,697 Output Tokens
+🔤 1,804,244 Input Tokens, 369,338 Output Tokens
 
-💵 $22.74 Estimated AI Cost This Week
+💵 $24.56 Estimated AI Cost This Week
 
-🧠 7 AI Sessions, 49 AI Prompts
+🧠 8 AI Sessions, 56 AI Prompts
 
-Sonnet                   829 lines           █████████████████████████   100.00 % 
+Sonnet                   829 lines           ████████████████████████░   94.74 % 
+Opus                     46 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 301 characters per prompt
+📝 Concise Prompter — average 277 characters per prompt
 🔁 Iterative Prompter — average 7 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -211,7 +212,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 24/09/2026 03:41:24 UTC
+ Last Updated on 25/09/2026 03:41:02 UTC
 <!--END_SECTION:waka-->
 
 ---
