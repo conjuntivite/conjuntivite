@@ -113,17 +113,17 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 ### ⏱️ Tempo de código (WakaTime)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-45%20hrs%2034%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-47%20hrs%2048%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-46%20hrs%2018%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-48%20hrs%2032%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-30-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 2.0 kB Usado no armazenamento do GitHub 
+> 📦 2.3 kB Usado no armazenamento do GitHub 
  > 
-> 🏆 69 Contribuições no ano de 2026
+> 🏆 89 Contribuições no ano de 2026
  > 
 > 🚫 Não aberto para contratação
  > 
@@ -134,21 +134,21 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 **Eu sou diurno 🐤** 
 
 ```text
-🌞 Manhã                  17 commits          ██████░░░░░░░░░░░░░░░░░░░   25.76 % 
-🌆 Tarde                  44 commits          █████████████████░░░░░░░░   66.67 % 
-🌃 Noite                  5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.58 % 
-🌙 Madrugada              0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌞 Manhã                  33 commits          ██████████░░░░░░░░░░░░░░░   38.37 % 
+🌆 Tarde                  46 commits          █████████████░░░░░░░░░░░░   53.49 % 
+🌃 Noite                  5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
+🌙 Madrugada              2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
 ```
-📅 **Sou mais produtivo em Quinta-Feira** 
+📅 **Sou mais produtivo em Sexta-Feira** 
 
 ```text
-Segunda-Feira            13 commits          █████░░░░░░░░░░░░░░░░░░░░   19.70 % 
-Terça-Feira              16 commits          ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
-Quarta-Feira             3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-Quinta-Feira             18 commits          ███████░░░░░░░░░░░░░░░░░░   27.27 % 
-Sexta-Feira              14 commits          █████░░░░░░░░░░░░░░░░░░░░   21.21 % 
+Segunda-Feira            13 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.12 % 
+Terça-Feira              16 commits          █████░░░░░░░░░░░░░░░░░░░░   18.60 % 
+Quarta-Feira             3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.49 % 
+Quinta-Feira             18 commits          █████░░░░░░░░░░░░░░░░░░░░   20.93 % 
+Sexta-Feira              34 commits          ██████████░░░░░░░░░░░░░░░   39.53 % 
 Sábado                   0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Domingo                  2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
+Domingo                  2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
 ```
 
 
@@ -158,43 +158,43 @@ Domingo                  2 commits           █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-JavaScript               5 hrs               ███████████████████░░░░░░   77.43 % 
-Markdown                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.01 % 
-CSS                      22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
-JSON                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
-Text                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
+JavaScript               7 hrs 4 mins        ████████████████████░░░░░   81.28 % 
+Markdown                 34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.65 % 
+CSS                      22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.22 % 
+Text                     17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 % 
+JSON                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
 
 🔥 Editores: 
-Claude Code              6 hrs 25 mins       █████████████████████████   99.47 % 
-Antigravity IDE          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 % 
+Claude Code              8 hrs 33 mins       █████████████████████████   98.31 % 
+Antigravity IDE          8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
 
 🐱‍💻 Projetos: 
-COMPRADOR INVIOLAVEL     6 hrs 28 mins       █████████████████████████   100.00 % 
+COMPRADOR INVIOLAVEL     8 hrs 42 mins       █████████████████████████   100.00 % 
 
 💻 Sistema operacional: 
-Windows                  6 hrs 28 mins       █████████████████████████   100.00 % 
+Windows                  8 hrs 42 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 6 hrs 28 mins (100.0%)
+⏱ AI Coding Time: 8 hrs 42 mins (100.0%)
 
-✍️ 863 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 1,125 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 1,804,244 Input Tokens, 369,338 Output Tokens
+🔤 2,188,814 Input Tokens, 488,528 Output Tokens
 
-💵 $24.56 Estimated AI Cost This Week
+💵 $47.00 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 56 AI Prompts
+🧠 12 AI Sessions, 85 AI Prompts
 
-Sonnet                   829 lines           ████████████████████████░   94.74 % 
-Opus                     46 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+Sonnet                   829 lines           █████████████████░░░░░░░░   66.43 % 
+Opus                     419 lines           ████████░░░░░░░░░░░░░░░░░   33.57 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 277 characters per prompt
+📝 Concise Prompter — average 237 characters per prompt
 🔁 Iterative Prompter — average 7 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -212,7 +212,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 25/09/2026 03:41:02 UTC
+ Last Updated on 26/09/2026 03:40:39 UTC
 <!--END_SECTION:waka-->
 
 ---
