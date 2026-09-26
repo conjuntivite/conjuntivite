@@ -21,10 +21,10 @@ resolvem um problema real do dia a dia, não só código bonito no vácuo.
 const conjuntivite = {
   papel: "Desenvolvedor Full-Stack",
   foco: ["segurança eletrônica", "CFTV", "automação de orçamento", "IA aplicada"],
-  construindoAgora: "SPECIUM — Intelligent System Design",
+  construindoAgora: ["SPECIUM — Intelligent System Design", "WCOEN — balancete pessoal pelo WhatsApp"],
   stack: {
     frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow"],
-    backend: ["Node.js (puro, sem framework)", "MongoDB", "Docker"],
+    backend: ["Node.js (puro, sem framework)", "TypeScript", "MongoDB", "Docker", "Baileys (WhatsApp)"],
     mapas: ["Leaflet", "MapLibre", "OpenStreetMap"],
     ia: ["OpenRouter (Gemini, DeepSeek)", "Claude Code"],
   },
@@ -50,6 +50,8 @@ const conjuntivite = {
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_(Baileys)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
 **Mapas**<br>
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
@@ -89,6 +91,26 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 | 🗺️ **Mapa e planta baixa** | Posiciona câmeras no endereço real ou na planta, com área de cobertura por resolução (IEC 62676-4) |
 | 📦 **Catálogo** | +400 produtos em +100 categorias, com ficha técnica e comparação lado a lado |
 | 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin |
+
+---
+
+### 🧾 Outro projeto
+
+<div align="center">
+
+**[WCOEN](https://github.com/conjuntivite/WCOEN)** · *balancete pessoal pelo WhatsApp*
+</div>
+
+Um bot que roda no meu PC e registra despesas e receitas digitadas num grupo do WhatsApp
+(`mercado 45,90`, `+ 70 plantão`), guarda tudo no MongoDB e responde com balancetes, extrato e uma
+auditoria com IA. Feito com TypeScript e testado (TDD), sem usar a API oficial (paga) do WhatsApp.
+
+| | |
+|---|---|
+| 💬 **Lançamento por texto livre** | Entende valor antes ou depois da descrição, sinais `+`/`-`, datas como `ontem` ou `15/09` e palavras de receita (salário, plantão, venda) |
+| 📊 **Relatórios** | Balancete do dia, resumos mensal, semanal e anual, e extrato paginado do mais recente ao mais antigo |
+| 🔎 **Auditoria com IA** | Ranking dos maiores gastos e comparação com o período anterior calculados em código; a IA (OpenRouter) só escreve as dicas |
+| 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho e nunca manda dados a modelo gratuito |
 
 ---
 
