@@ -97,7 +97,7 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 
 ---
 
-### 🧾 Outro projeto
+### 🧾 Outros projetos
 
 <div align="center">
 
@@ -117,6 +117,22 @@ TypeScript e testado (Vitest), sem usar a API oficial (paga) do WhatsApp.
 | 🔎 **Auditoria com IA** | Ranking dos maiores gastos e comparação com o período anterior calculados em código; a IA (OpenRouter) só escreve as dicas |
 | 👥 **Contas e portal web** | Cada pessoa com a sua conta: cadastro por convite, redefinição de senha de uso único (validade de 1 h) e tela de administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho e nunca manda dados a modelo gratuito |
+
+<div align="center">
+
+**[BUSCADOR-V1](https://github.com/conjuntivite/BUSCADOR-V1)** · *comparador de preços de hardware*
+</div>
+
+Você informa a peça (categoria, marca e modelo) e o servidor busca ofertas em várias lojas, descarta
+o que não é o produto exato e devolve tudo ordenado por preço em reais. Servidor em Node.js puro (sem
+framework), front-end estático em JS vanilla e testes com o runner nativo do Node (`node --test`).
+
+| | |
+|---|---|
+| 🛒 **Vários provedores** | KaBuM! (lê o JSON da própria página, sem chave), Amazon (Chrome headless com Puppeteer) e Google Shopping via Serper e SerpApi (pagos, opcionais) |
+| 🎯 **Oferta exata** | Normaliza os títulos e filtra o que não bate com o modelo pedido, em vez de listar tudo que aparece na busca |
+| ⚖️ **Comparação de ficha técnica** | Compara 2 ou 3 ofertas: CPU, GPU e disco com benchmark do PassMark (cache de 24 h); RAM, placa-mãe e fonte lidas do título |
+| 🚧 **Sem burlar proteção anti-bot** | Lojas com bloqueio (Terabyte, Pichau, Mercado Livre, Magalu) foram avaliadas e deliberadamente ficaram de fora |
 
 ---
 
