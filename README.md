@@ -24,9 +24,9 @@ const conjuntivite = {
   construindoAgora: ["SPECIUM — Intelligent System Design", "WCOEN — balancete pessoal pelo WhatsApp"],
   stack: {
     frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow"],
-    backend: ["Node.js (puro, sem framework)", "TypeScript", "MongoDB", "Docker", "Baileys (WhatsApp)"],
+    backend: ["Node.js (puro, sem framework)", "TypeScript", "MongoDB", "PostgreSQL", "Docker", "Baileys (WhatsApp)"],
     mapas: ["Leaflet", "MapLibre", "OpenStreetMap"],
-    ia: ["OpenRouter (Gemini, DeepSeek)", "Claude Code"],
+    ia: ["OpenRouter (DeepSeek V4 Flash)", "Claude Code"],
   },
   filosofia: "ferramenta que resolve problema real > código bonito no vácuo",
 };
@@ -49,6 +49,8 @@ const conjuntivite = {
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_(Baileys)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
@@ -87,9 +89,10 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 |---|---|
 | 🧩 **Canvas de orçamento** | Quadro visual com React Flow, containers (rack com equipamentos dentro) e ligações entre itens |
 | 💡 **Motor de sugestões** | Recalcula a cada item o que falta (switch PoE, cabo, fonte, gravação), separando essencial de recomendado |
-| 🤖 **Validação de PDF com IA** | Lê um orçamento pronto em PDF e aponta erros e faltas — modelos via OpenRouter, ~US$ 0,004 por PDF |
+| 🤖 **Validação de PDF com IA** | Lê um orçamento pronto em PDF, classifica os itens em lotes e aponta erros e faltas (DeepSeek via OpenRouter). Uma **memória de classificação** no banco reaproveita respostas anteriores: orçamento com itens já conhecidos nem chama a IA |
 | 🗺️ **Mapa e planta baixa** | Posiciona câmeras no endereço real ou na planta, com área de cobertura por resolução (IEC 62676-4) |
-| 📦 **Catálogo** | +400 produtos em +100 categorias, com ficha técnica e comparação lado a lado |
+| 📦 **Catálogo** | +450 produtos em +140 categorias, com ficha técnica e comparação lado a lado; exporta e importa para um arquivo versionado no Git |
+| 📑 **Fichas de datasheets oficiais** | Intelbras, Hikvision, ONE e SIAM validados no datasheet do fabricante (alimentação, PoE, zonas, compatibilidade entre linhas) — a IA consulta só a ficha do modelo citado |
 | 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin |
 
 ---
@@ -101,15 +104,18 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 **[WCOEN](https://github.com/conjuntivite/WCOEN)** · *balancete pessoal pelo WhatsApp*
 </div>
 
-Um bot que roda no meu PC e registra despesas e receitas digitadas num grupo do WhatsApp
-(`mercado 45,90`, `+ 70 plantão`), guarda tudo no MongoDB e responde com balancetes, extrato e uma
-auditoria com IA. Feito com TypeScript e testado (TDD), sem usar a API oficial (paga) do WhatsApp.
+Um bot de WhatsApp que registra despesas e receitas digitadas num grupo (`mercado 45,90`,
+`+ 70 plantão`), guarda tudo no PostgreSQL (Docker ou Supabase) e responde com balancetes, extrato e
+uma auditoria com IA. Agora também com **portal web multiusuário** (contas por convite, login,
+redefinição de senha por e-mail e administração de contas), pronto pra subir no Render. Feito com
+TypeScript e testado (Vitest), sem usar a API oficial (paga) do WhatsApp.
 
 | | |
 |---|---|
 | 💬 **Lançamento por texto livre** | Entende valor antes ou depois da descrição, sinais `+`/`-`, datas como `ontem` ou `15/09` e palavras de receita (salário, plantão, venda) |
 | 📊 **Relatórios** | Balancete do dia, resumos mensal, semanal e anual, e extrato paginado do mais recente ao mais antigo |
 | 🔎 **Auditoria com IA** | Ranking dos maiores gastos e comparação com o período anterior calculados em código; a IA (OpenRouter) só escreve as dicas |
+| 👥 **Contas e portal web** | Cada pessoa com a sua conta: cadastro por convite, redefinição de senha de uso único (validade de 1 h) e tela de administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho e nunca manda dados a modelo gratuito |
 
 ---
