@@ -10,8 +10,6 @@
 [![GitHub followers](https://img.shields.io/github/followers/conjuntivite?label=Seguidores&style=social)](https://github.com/conjuntivite)
 ![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=conjuntivite.conjuntivite)
 
-<br><br>
-<img src="assets/stats.svg" alt="450+ produtos, 140+ categorias, 4 fabricantes, 3 projetos" width="100%">
 
 </div>
 
