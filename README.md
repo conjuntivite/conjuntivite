@@ -69,16 +69,7 @@ const conjuntivite = {
 
 <img src="assets/sec-destaque.svg" alt="Projeto em destaque" width="100%">
 
-<div align="center">
-<a href="https://github.com/conjuntivite/SPECIUM">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/conjuntivite/SPECIUM/main/web/public/logo-dark.png">
-    <img src="https://raw.githubusercontent.com/conjuntivite/SPECIUM/main/web/public/logo-light.png" alt="SPECIUM" width="240">
-  </picture>
-</a>
-
-**[SPECIUM](https://github.com/conjuntivite/SPECIUM)** · *Intelligent System Design*
-</div>
+<a href="https://github.com/conjuntivite/SPECIUM"><img src="assets/card-specium.svg" alt="SPECIUM — Intelligent System Design, orçamento de CFTV e segurança eletrônica" width="100%"></a>
 
 Sistema completo pra orçamento de instalação de CFTV e segurança eletrônica — o comercial monta o
 projeto num canvas e o sistema aponta o que falta pra instalação funcionar de verdade.
@@ -98,6 +89,17 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 <img src="assets/sec-outros.svg" alt="Outros projetos" width="100%">
 
 <a href="https://github.com/conjuntivite/WCOEN"><img src="assets/card-wcoen.svg" alt="WCOEN — balancete pessoal pelo WhatsApp" width="100%"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="assets/wcoen-entrar.png" alt="Tela de entrada do WCOEN com a prévia da mensagem do bot" width="100%"></td>
+<td width="50%"><img src="assets/wcoen-dashboard.png" alt="Dashboard do WCOEN com saldo, receitas, despesas e gráfico dos últimos 6 meses" width="100%"></td>
+</tr>
+<tr>
+<td align="center"><sub>Entrada do portal, com a prévia do balancete que o bot envia</sub></td>
+<td align="center"><sub>Dashboard: saldo do mês, últimos 6 meses e despesas por categoria (dados de exemplo)</sub></td>
+</tr>
+</table>
 
 Um bot de WhatsApp que registra despesas e receitas digitadas num grupo (`mercado 45,90`,
 `+ 70 plantão`), guarda tudo no PostgreSQL (Docker ou Supabase) e responde com balancetes, extrato e
