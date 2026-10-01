@@ -1,11 +1,12 @@
 <div align="center">
 
-<h1>Olá <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>, eu sou o <strong>conjuntivite</strong> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="135"></h1>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full-Stack;Seguran%C3%A7a+Eletr%C3%B4nica+%26+CFTV;Criador+do+SPECIUM;IA+aplicada+a+or%C3%A7amento+t%C3%A9cnico;Construindo+ferramentas+pra+resolver+problema+real)](https://git.io/typing-svg)
+<img src="assets/hero.svg" alt="conjuntivite — Desenvolvedor Full-Stack, segurança eletrônica e CFTV" width="100%">
 
 [![GitHub followers](https://img.shields.io/github/followers/conjuntivite?label=Seguidores&style=social)](https://github.com/conjuntivite)
 ![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=conjuntivite.conjuntivite)
+
+<br><br>
+<img src="assets/stats.svg" alt="450+ produtos, 140+ categorias, 4 fabricantes, 3 projetos" width="100%">
 
 </div>
 
@@ -13,9 +14,8 @@ Desenvolvedor full-stack com foco em **soluções pra segurança eletrônica e C
 levantamento técnico à automação de orçamento e instalação. Gosto de construir ferramentas que
 resolvem um problema real do dia a dia, não só código bonito no vácuo.
 
----
 
-### 👨‍💻 Sobre mim
+<img src="assets/sec-sobre.svg" alt="Sobre mim" width="100%">
 
 ```javascript
 const conjuntivite = {
@@ -32,9 +32,8 @@ const conjuntivite = {
 };
 ```
 
----
 
-### 🛠️ Stack
+<img src="assets/sec-stack.svg" alt="Stack" width="100%">
 
 <div align="center">
 
@@ -67,9 +66,8 @@ const conjuntivite = {
 
 </div>
 
----
 
-### 📌 Projeto em destaque
+<img src="assets/sec-destaque.svg" alt="Projeto em destaque" width="100%">
 
 <div align="center">
 <a href="https://github.com/conjuntivite/SPECIUM">
@@ -96,14 +94,10 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 | 🛎️ **Assistente de projeto** | Monta o projeto a partir de regras fixas dos fabricantes (SIAM/ONE: facial por marca, antena veicular na rede, 1 acesso por controladora, sensores e barreiras) e importa direto pro canvas |
 | 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin, que também cadastra usuários pela tela |
 
----
 
-### 🧾 Outros projetos
+<img src="assets/sec-outros.svg" alt="Outros projetos" width="100%">
 
-<div align="center">
-
-**[WCOEN](https://github.com/conjuntivite/WCOEN)** · *balancete pessoal pelo WhatsApp*
-</div>
+<a href="https://github.com/conjuntivite/WCOEN"><img src="assets/card-wcoen.svg" alt="WCOEN — balancete pessoal pelo WhatsApp" width="100%"></a>
 
 Um bot de WhatsApp que registra despesas e receitas digitadas num grupo (`mercado 45,90`,
 `+ 70 plantão`), guarda tudo no PostgreSQL (Docker ou Supabase) e responde com balancetes, extrato e
@@ -119,10 +113,7 @@ TypeScript e testado (Vitest), sem usar a API oficial (paga) do WhatsApp.
 | 👥 **Contas e portal web** | Cada pessoa com a sua conta: cadastro por convite, redefinição de senha de uso único (validade de 1 h) e tela de administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho e nunca manda dados a modelo gratuito |
 
-<div align="center">
-
-**[BUSCADOR-V1](https://github.com/conjuntivite/BUSCADOR-V1)** · *comparador de preços de hardware*
-</div>
+<a href="https://github.com/conjuntivite/BUSCADOR-V1"><img src="assets/card-buscador.svg" alt="BUSCADOR-V1 — comparador de preços de hardware" width="100%"></a>
 
 Você informa a peça (categoria, marca e modelo) e o servidor busca ofertas em várias lojas, descarta
 o que não é o produto exato e devolve tudo ordenado por preço em reais. Servidor em Node.js puro (sem
@@ -135,9 +126,8 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 | ⚖️ **Comparação de ficha técnica** | Compara 2 ou 3 ofertas: CPU, GPU e disco com benchmark do PassMark (cache de 24 h); RAM, placa-mãe e fonte lidas do título |
 | 🚧 **Sem burlar proteção anti-bot** | Lojas com bloqueio (Terabyte, Pichau, Mercado Livre, Magalu) foram avaliadas e deliberadamente ficaram de fora |
 
----
 
-### 📊 Estatísticas
+<img src="assets/sec-stats.svg" alt="Estatísticas" width="100%">
 
 <div align="center">
 
@@ -153,9 +143,8 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 
 </details>
 
----
 
-### ⏱️ Tempo de código (WakaTime)
+<img src="assets/sec-waka.svg" alt="Tempo de código (WakaTime)" width="100%">
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-47%20hrs%2048%20mins-blue?style=flat)
@@ -261,17 +250,15 @@ TypeScript               1 repo              ████████░░░�
  Last Updated on 01/10/2026 03:44:23 UTC
 <!--END_SECTION:waka-->
 
----
 
-### 🐍 Atividade recente
+<img src="assets/sec-snake.svg" alt="Atividade recente" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/conjuntivite/conjuntivite/output/github-contribution-grid-snake-dark.svg">
   <img alt="Snake animation" src="https://raw.githubusercontent.com/conjuntivite/conjuntivite/output/github-contribution-grid-snake.svg">
 </picture>
 
----
 
-### 📫 Contato
+<img src="assets/sec-contato.svg" alt="Contato" width="100%">
 
 [![E-mail](https://img.shields.io/badge/tawan.barbosa@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tawan.barbosa@gmail.com)
