@@ -87,13 +87,14 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 
 | | |
 |---|---|
-| 🧩 **Canvas de orçamento** | Quadro visual com React Flow, containers (rack com equipamentos dentro) e ligações entre itens |
+| 🧩 **Canvas de orçamento** | Quadro visual com React Flow, containers (rack com equipamentos dentro) e ligações por tipo de cabo (rede, CCI, coaxial, dupla capa, paralelo) |
 | 💡 **Motor de sugestões** | Recalcula a cada item o que falta (switch PoE, cabo, fonte, gravação), separando essencial de recomendado |
 | 🤖 **Validação de PDF com IA** | Lê um orçamento pronto em PDF, classifica os itens em lotes e aponta erros e faltas (DeepSeek via OpenRouter). Uma **memória de classificação** no banco reaproveita respostas anteriores: orçamento com itens já conhecidos nem chama a IA |
 | 🗺️ **Mapa e planta baixa** | Posiciona câmeras no endereço real ou na planta, com área de cobertura por resolução (IEC 62676-4) |
 | 📦 **Catálogo** | +450 produtos em +140 categorias, com ficha técnica e comparação lado a lado; exporta e importa para um arquivo versionado no Git |
 | 📑 **Fichas de datasheets oficiais** | Intelbras, Hikvision, ONE e SIAM validados no datasheet do fabricante (alimentação, PoE, zonas, compatibilidade entre linhas) — a IA consulta só a ficha do modelo citado |
-| 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin |
+| 🛎️ **Assistente de projeto** | Monta o projeto a partir de regras fixas dos fabricantes (SIAM/ONE: facial por marca, antena veicular na rede, 1 acesso por controladora, sensores e barreiras) e importa direto pro canvas |
+| 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin, que também cadastra usuários pela tela |
 
 ---
 
