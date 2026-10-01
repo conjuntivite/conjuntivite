@@ -78,11 +78,11 @@ const conjuntivite = {
 
 <table>
 <tr>
-<td width="50%"><img src="assets/specium-produtos.jpg" alt="Catálogo de produtos do SPECIUM com busca por categoria, marca e modelo" width="100%"></td>
+<td width="50%"><img src="assets/specium-canvas.jpg" alt="Canvas do SPECIUM com rack, câmeras IP e fontes ligados por cabo de rede" width="100%"></td>
 <td width="50%"><img src="assets/specium-assistente.jpg" alt="Assistente de IA do SPECIUM, especialista em ONE PORTARIA e SIAM" width="100%"></td>
 </tr>
 <tr>
-<td align="center"><sub>Catálogo de produtos, com busca por categoria, marca e modelo</sub></td>
+<td align="center"><sub>Canvas do orçamento: rack, câmeras e fontes ligados por tipo de cabo</sub></td>
 <td align="center"><sub>Assistente de IA para projeto, ligação e orçamento ONE/SIAM</sub></td>
 </tr>
 </table>
