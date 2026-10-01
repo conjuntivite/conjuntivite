@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
 <title id="t">conjuntivite</title><desc id="d">Desenvolvedor full-stack, segurança eletrônica e CFTV</desc>
 <style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-.sweep{transform-origin:830px 150px;animation:spin 6s linear infinite}
 .rec{animation:blink 1.4s steps(2,start) infinite}
-.pulse{transform-origin:830px 150px;animation:pulse 3s ease-out infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
 @keyframes blink{50%{opacity:0}}
-@keyframes pulse{from{opacity:.5;transform:scale(.6)}to{opacity:0;transform:scale(1.25)}}</style>
+</style>
 <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
 <linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".45"/></linearGradient>
 <radialGradient id="fade" cx=".8" cy=".5" r=".7"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
@@ -15,8 +12,6 @@
 <g stroke="#1E293B" stroke-width="1" mask="url(#m)"><path d="M0 0V300" /><path d="M40 0V300" /><path d="M80 0V300" /><path d="M120 0V300" /><path d="M160 0V300" /><path d="M200 0V300" /><path d="M240 0V300" /><path d="M280 0V300" /><path d="M320 0V300" /><path d="M360 0V300" /><path d="M400 0V300" /><path d="M440 0V300" /><path d="M480 0V300" /><path d="M520 0V300" /><path d="M560 0V300" /><path d="M600 0V300" /><path d="M640 0V300" /><path d="M680 0V300" /><path d="M720 0V300" /><path d="M760 0V300" /><path d="M800 0V300" /><path d="M840 0V300" /><path d="M880 0V300" /><path d="M920 0V300" /><path d="M960 0V300" /><path d="M1000 0V300" /><path d="M0 0H1000" /><path d="M0 40H1000" /><path d="M0 80H1000" /><path d="M0 120H1000" /><path d="M0 160H1000" /><path d="M0 200H1000" /><path d="M0 240H1000" /><path d="M0 280H1000" /></g>
 <rect x=".5" y=".5" width="999" height="299" rx="16" fill="none" stroke="#1E293B"/>
 <g fill="none" stroke="#2DD4BF" stroke-opacity=".55"><circle cx="830" cy="150" r="110"/><circle cx="830" cy="150" r="78" stroke-opacity=".35"/><circle cx="830" cy="150" r="46" stroke-opacity=".6"/><path d="M830 30V270M710 150H950" stroke-opacity=".25"/></g>
-<circle class="pulse" cx="830" cy="150" r="110" fill="none" stroke="#2DD4BF" stroke-width="2"/>
-<path class="sweep" d="M830 150L940 150A110 110 0 0 0 830 40Z" fill="url(#s)" transform="rotate(-90 830 150)"/>
 <circle cx="830" cy="150" r="14" fill="#2DD4BF"/><circle cx="830" cy="150" r="5" fill="#0B0F14"/>
 <g stroke="#2DD4BF" stroke-width="3" fill="none"><path d="M690 24H716M690 24V50"/><path d="M970 24H944M970 24V50"/><path d="M690 276H716M690 276V250"/><path d="M970 276H944M970 276V250"/></g>
 <circle class="rec" cx="722" cy="44" r="6" fill="#EF4444"/><text x="736" y="49" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14" fill="#E2E8F0">REC</text>
@@ -24,7 +19,4 @@
 <text x="48" y="156" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="58" font-weight="700" fill="url(#g)">conjuntivite</text>
 <text x="48" y="196" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="20" fill="#E2E8F0">Desenvolvedor Full-Stack</text>
 <text x="48" y="224" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#94A3B8">Segurança eletrônica · CFTV · IA aplicada a orçamento técnico</text>
-<g font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13"><rect x="48" y="246" width="116" height="28" rx="14" fill="#111823" stroke="#2DD4BF"/><text x="106" y="264" text-anchor="middle" fill="#2DD4BF">SPECIUM</text>
-<rect x="174" y="246" width="96" height="28" rx="14" fill="#111823" stroke="#1E293B"/><text x="222" y="264" text-anchor="middle" fill="#E2E8F0">WCOEN</text>
-<rect x="280" y="246" width="128" height="28" rx="14" fill="#111823" stroke="#1E293B"/><text x="344" y="264" text-anchor="middle" fill="#E2E8F0">BUSCADOR</text></g>
 </svg>

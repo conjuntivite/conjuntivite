@@ -2,6 +2,11 @@
 
 <img src="assets/hero.svg" alt="conjuntivite — Desenvolvedor Full-Stack, segurança eletrônica e CFTV" width="100%">
 
+<a href="https://github.com/conjuntivite/SPECIUM"><b>SPECIUM</b></a> &nbsp;·&nbsp;
+<a href="https://github.com/conjuntivite/WCOEN"><b>WCOEN</b></a> &nbsp;·&nbsp;
+<a href="https://github.com/conjuntivite/BUSCADOR-V1"><b>BUSCADOR</b></a>
+
+
 [![GitHub followers](https://img.shields.io/github/followers/conjuntivite?label=Seguidores&style=social)](https://github.com/conjuntivite)
 ![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=conjuntivite.conjuntivite)
 
@@ -70,6 +75,17 @@ const conjuntivite = {
 <img src="assets/sec-destaque.svg" alt="Projeto em destaque" width="100%">
 
 <a href="https://github.com/conjuntivite/SPECIUM"><img src="assets/card-specium.svg" alt="SPECIUM — Intelligent System Design, orçamento de CFTV e segurança eletrônica" width="100%"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="assets/specium-produtos.jpg" alt="Catálogo de produtos do SPECIUM com busca por categoria, marca e modelo" width="100%"></td>
+<td width="50%"><img src="assets/specium-assistente.jpg" alt="Assistente de IA do SPECIUM, especialista em ONE PORTARIA e SIAM" width="100%"></td>
+</tr>
+<tr>
+<td align="center"><sub>Catálogo de produtos, com busca por categoria, marca e modelo</sub></td>
+<td align="center"><sub>Assistente de IA para projeto, ligação e orçamento ONE/SIAM</sub></td>
+</tr>
+</table>
 
 Sistema completo pra orçamento de instalação de CFTV e segurança eletrônica — o comercial monta o
 projeto num canvas e o sistema aponta o que falta pra instalação funcionar de verdade.
