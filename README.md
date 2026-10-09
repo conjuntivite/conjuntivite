@@ -23,13 +23,19 @@ resolvem um problema real do dia a dia, não só código bonito no vácuo.
 ```javascript
 const conjuntivite = {
   papel: "Desenvolvedor Full-Stack",
-  foco: ["segurança eletrônica", "CFTV", "automação de orçamento", "IA aplicada"],
-  construindoAgora: ["SPECIUM — Intelligent System Design", "WCOEN — balancete pessoal pelo WhatsApp"],
+  foco: ["segurança eletrônica", "CFTV", "automação de orçamento", "IA aplicada", "pesquisa quantitativa"],
+  construindoAgora: [
+    "SPECIUM — Intelligent System Design",
+    "WCOEN — balancete pessoal pelo WhatsApp",
+    "xSPECTRO — laboratório quantitativo auditável (cripto, só dry-run)",
+  ],
   stack: {
     frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow"],
     backend: ["Node.js (puro, sem framework)", "TypeScript", "MongoDB", "PostgreSQL", "Docker", "Baileys (WhatsApp)"],
     mapas: ["Leaflet", "MapLibre", "OpenStreetMap"],
+    quant: ["Python", "Freqtrade", "pandas", "PyTorch (ROCm)"],
     ia: ["OpenRouter (DeepSeek V4 Flash)", "Claude Code"],
+    design: "Trade UI — design system próprio, tema claro/escuro",
   },
   filosofia: "ferramenta que resolve problema real > código bonito no vácuo",
 };
@@ -61,6 +67,12 @@ const conjuntivite = {
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 ![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white)
 ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white)
+
+**Dados e quant**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Freqtrade](https://img.shields.io/badge/Freqtrade-1E293B?style=for-the-badge&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **IA e ferramentas**<br>
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-94A3B8?style=for-the-badge&logo=openrouter&logoColor=black)
@@ -98,6 +110,7 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 | 📑 **Fichas de datasheets oficiais** | Intelbras, Hikvision, ONE e SIAM validados no datasheet do fabricante (alimentação, PoE, zonas, compatibilidade entre linhas) — a IA consulta só a ficha do modelo citado |
 | 🛎️ **Assistente de projeto** | Monta o projeto a partir de regras fixas dos fabricantes (SIAM/ONE: facial por marca, antena veicular na rede, 1 acesso por controladora, sensores e barreiras) e importa direto pro canvas |
 | 🔐 **Acesso** | Etapas do orçamento (aberto → negociação → fechado) e permissão por tela, editável pelo admin, que também cadastra usuários pela tela |
+| 🎨 **Trade UI** | Design system próprio (tokens, componentes, tema claro e escuro) compartilhado com o WCOEN. Arquitetura documentada em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/SPECIUM/blob/main/docs/ARCHITECTURE.md) |
 
 
 <img src="assets/sec-outros.svg" alt="Outros projetos" width="100%">
@@ -115,19 +128,37 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 </tr>
 </table>
 
-Um bot de WhatsApp que registra despesas e receitas digitadas num grupo (`mercado 45,90`,
-`+ 70 plantão`), guarda tudo no PostgreSQL (Docker ou Supabase) e responde com balancetes, extrato e
-uma auditoria com IA. Agora também com **portal web multiusuário** (contas por convite, login,
-redefinição de senha por e-mail e administração de contas), pronto pra subir no Render. Feito com
-TypeScript e testado (Vitest), sem usar a API oficial (paga) do WhatsApp.
+Um bot de WhatsApp que registra despesas e receitas por comandos num grupo (`/d mercado 45,90`,
+`/r plantão 70`), guarda tudo no PostgreSQL (Docker ou Supabase) e responde com balancetes, extrato e
+uma auditoria com IA. Roda como **SaaS multiusuário**: cada cliente se cadastra no portal por convite,
+conecta o próprio WhatsApp e tem dashboard, contas correntes e administração. Sobe com Docker + Caddy ou
+no Render. Feito com TypeScript e testado (Vitest), sem usar a API oficial (paga) do WhatsApp.
+Arquitetura em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/WCOEN/blob/main/docs/ARCHITECTURE.md).
 
 | | |
 |---|---|
-| 💬 **Lançamento por texto livre** | Entende valor antes ou depois da descrição, sinais `+`/`-`, datas como `ontem` ou `15/09` e palavras de receita (salário, plantão, venda) |
+| 💬 **Comandos curtos** | `/d` despesa, `/r` receita, `/t` transferência, `/desfazer`; data opcional `dd/mm` e `@conta` em qualquer posição |
+| 🏦 **Contas correntes** | Várias contas por cliente, com favorita, saldo inicial e transferência entre elas (fora do balancete) |
+| 📸 **Nota por foto** | Foto do cupom com `/nota`: a IA lê total, data e emitente e o bot devolve o comando pronto; `/ok` lança |
 | 📊 **Relatórios** | Balancete do dia, resumos mensal, semanal e anual, e extrato paginado do mais recente ao mais antigo |
 | 🔎 **Auditoria com IA** | Ranking dos maiores gastos e comparação com o período anterior calculados em código; a IA (OpenRouter) só escreve as dicas |
-| 👥 **Contas e portal web** | Cada pessoa com a sua conta: cadastro por convite, redefinição de senha de uso único (validade de 1 h) e tela de administração |
-| 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho e nunca manda dados a modelo gratuito |
+| 👥 **Portal web** | Cadastro por convite, conexão do WhatsApp por QR, dashboard (saldo, 6 meses, categorias), papéis com validade de acesso e administração |
+| 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho, cifra as credenciais do WhatsApp no banco e nunca manda dados a modelo gratuito |
+
+<img src="assets/card-xspectro.svg" alt="xSPECTRO — laboratório quantitativo auditável de trading cripto, só dry-run (repositório privado)" width="100%">
+
+Laboratório de pesquisa quantitativa em cripto (Binance Spot, só long e **só dry-run**). A regra do projeto é
+a disciplina científica: toda hipótese é pré-registrada antes de rodar, os dados têm manifesto com sha256, o
+período fora da amostra fica protegido e cada fase passa por auditoria externa antes da próxima. Resultado
+ruim é registrado como resultado, não é "ajustado" até passar.
+
+| | |
+|---|---|
+| 🧪 **Experimentos pré-registrados** | Hipótese, métricas e critérios fixados antes de rodar; emendas só por registro append-only |
+| 🤖 **Bots Freqtrade em shadow** | Bots com e sem um "Sentinel" de risco (notícias + Fear & Greed + LLM) comparados lado a lado, em Docker |
+| 📈 **Validação prospectiva** | Estratégia aprovada no histórico roda em dry-run com replay semanal e paradas automáticas (drawdown, divergência, identidade) |
+| 🔮 **Modelos de base** | Avaliação do Kronos (previsão de candles) contra baselines simples, com benchmark em GPU AMD (ROCm) |
+| 🔒 **Live impossível** | Sem chave de exchange; bloqueio em várias camadas e API dos bots nunca publicada |
 
 <a href="https://github.com/conjuntivite/BUSCADOR-V1"><img src="assets/card-buscador.svg" alt="BUSCADOR-V1 — comparador de preços de hardware" width="100%"></a>
 
