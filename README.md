@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="conjuntivite — Desenvolvedor Full-Stack, segurança eletrônica e CFTV" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="conjuntivite — Desenvolvedor Full-Stack, segurança eletrônica e CFTV" width="100%"></picture>
 
 <a href="https://github.com/conjuntivite/SPECIUM"><b>SPECIUM</b></a> &nbsp;·&nbsp;
 <a href="https://github.com/conjuntivite/WCOEN"><b>WCOEN</b></a> &nbsp;·&nbsp;
@@ -18,7 +18,7 @@ levantamento técnico à automação de orçamento e instalação. Gosto de cons
 resolvem um problema real do dia a dia, não só código bonito no vácuo.
 
 
-<img src="assets/sec-sobre.svg" alt="Sobre mim" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-sobre-dark.svg"><img src="assets/sec-sobre-light.svg" alt="Sobre mim" width="100%"></picture>
 
 ```javascript
 const conjuntivite = {
@@ -42,7 +42,7 @@ const conjuntivite = {
 ```
 
 
-<img src="assets/sec-stack.svg" alt="Stack" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-stack-dark.svg"><img src="assets/sec-stack-light.svg" alt="Stack" width="100%"></picture>
 
 <div align="center">
 
@@ -82,18 +82,18 @@ const conjuntivite = {
 </div>
 
 
-<img src="assets/sec-destaque.svg" alt="Projeto em destaque" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-destaque-dark.svg"><img src="assets/sec-destaque-light.svg" alt="Projeto em destaque" width="100%"></picture>
 
-<a href="https://github.com/conjuntivite/SPECIUM"><img src="assets/card-specium.svg" alt="SPECIUM — Intelligent System Design, orçamento de CFTV e segurança eletrônica" width="100%"></a>
+<a href="https://github.com/conjuntivite/SPECIUM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-specium-dark.svg"><img src="assets/card-specium-light.svg" alt="SPECIUM — Intelligent System Design, orçamento de CFTV e segurança eletrônica" width="100%"></picture></a>
 
 <table>
 <tr>
-<td width="50%"><img src="assets/specium-login.png" alt="Tela de login do SPECIUM com o radar de equipamentos: câmera IP, NVR, switch PoE, nobreak e leitor facial" width="100%"></td>
-<td width="50%"><img src="assets/specium-canvas.jpg" alt="Canvas do SPECIUM com rack, câmeras IP e fontes ligados por cabo de rede" width="100%"></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/specium-login-dark.png"><img src="assets/specium-login-light.png" alt="Tela de login do SPECIUM com o radar de equipamentos: câmera IP, NVR, switch PoE, nobreak e leitor facial" width="100%"></picture></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/specium-canvas-dark.png"><img src="assets/specium-canvas-light.png" alt="Canvas do SPECIUM com NVR, switch PoE, câmeras IP e nobreak ligados, e o painel de sugestões do motor de regras" width="100%"></picture></td>
 </tr>
 <tr>
 <td align="center"><sub>Login: Projete. Valide. Instale.</sub></td>
-<td align="center"><sub>Canvas do orçamento: rack, câmeras e fontes ligados por tipo de cabo</sub></td>
+<td align="center"><sub>Canvas do orçamento: itens ligados por tipo de cabo e as sugestões do motor (dados de exemplo)</sub></td>
 </tr>
 </table>
 
@@ -113,18 +113,18 @@ projeto num canvas e o sistema aponta o que falta pra instalação funcionar de 
 | 🎨 **Trade UI** | Design system próprio (tokens, componentes, tema claro e escuro) compartilhado com o WCOEN. Arquitetura documentada em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/SPECIUM/blob/main/docs/ARCHITECTURE.md) |
 
 
-<img src="assets/sec-outros.svg" alt="Outros projetos" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-outros-dark.svg"><img src="assets/sec-outros-light.svg" alt="Outros projetos" width="100%"></picture>
 
-<a href="https://github.com/conjuntivite/WCOEN"><img src="assets/card-wcoen.svg" alt="WCOEN — balancete pessoal pelo WhatsApp" width="100%"></a>
+<a href="https://github.com/conjuntivite/WCOEN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-wcoen-dark.svg"><img src="assets/card-wcoen-light.svg" alt="WCOEN — balancete pessoal pelo WhatsApp" width="100%"></picture></a>
 
 <table>
 <tr>
-<td width="50%"><img src="assets/wcoen-entrar.png" alt="Tela de entrada do WCOEN com a prévia da mensagem do bot" width="100%"></td>
-<td width="50%"><img src="assets/wcoen-dashboard.png" alt="Dashboard do WCOEN com saldo, receitas, despesas e gráfico dos últimos 6 meses" width="100%"></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/wcoen-entrar-dark.png"><img src="assets/wcoen-entrar-light.png" alt="Tela de entrada do WCOEN com a prévia da mensagem do bot" width="100%"></picture></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/wcoen-dashboard-dark.png"><img src="assets/wcoen-dashboard-light.png" alt="Dashboard do WCOEN com saldo do mês em destaque, receitas, despesas, gráfico dos últimos 6 meses e resultado mês a mês" width="100%"></picture></td>
 </tr>
 <tr>
 <td align="center"><sub>Entrada do portal, com a prévia do balancete que o bot envia</sub></td>
-<td align="center"><sub>Dashboard: saldo do mês, últimos 6 meses e despesas por categoria (dados de exemplo)</sub></td>
+<td align="center"><sub>Dashboard: saldo do mês, últimos 6 meses, resultado mês a mês e categorias (dados de exemplo)</sub></td>
 </tr>
 </table>
 
@@ -145,7 +145,7 @@ Arquitetura em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/WCOEN/bl
 | 👥 **Portal web** | Cadastro por convite, conexão do WhatsApp por QR, dashboard (saldo, 6 meses, categorias), papéis com validade de acesso e administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho, cifra as credenciais do WhatsApp no banco e nunca manda dados a modelo gratuito |
 
-<img src="assets/card-xspectro.svg" alt="xSPECTRO — laboratório quantitativo auditável de trading cripto, só dry-run (repositório privado)" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-xspectro-dark.svg"><img src="assets/card-xspectro-light.svg" alt="xSPECTRO — laboratório quantitativo auditável de trading cripto, só dry-run (repositório privado)" width="100%"></picture>
 
 Laboratório de pesquisa quantitativa em cripto (Binance Spot, só long e **só dry-run**). A regra do projeto é
 a disciplina científica: toda hipótese é pré-registrada antes de rodar, os dados têm manifesto com sha256, o
@@ -160,7 +160,7 @@ ruim é registrado como resultado, não é "ajustado" até passar.
 | 🔮 **Modelos de base** | Avaliação do Kronos (previsão de candles) contra baselines simples, com benchmark em GPU AMD (ROCm) |
 | 🔒 **Live impossível** | Sem chave de exchange; bloqueio em várias camadas e API dos bots nunca publicada |
 
-<a href="https://github.com/conjuntivite/BUSCADOR-V1"><img src="assets/card-buscador.svg" alt="BUSCADOR-V1 — comparador de preços de hardware" width="100%"></a>
+<a href="https://github.com/conjuntivite/BUSCADOR-V1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-buscador-dark.svg"><img src="assets/card-buscador-light.svg" alt="BUSCADOR-V1 — comparador de preços de hardware" width="100%"></picture></a>
 
 Você informa a peça (categoria, marca e modelo) e o servidor busca ofertas em várias lojas, descarta
 o que não é o produto exato e devolve tudo ordenado por preço em reais. Servidor em Node.js puro (sem
@@ -174,7 +174,7 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 | 🚧 **Sem burlar proteção anti-bot** | Lojas com bloqueio (Terabyte, Pichau, Mercado Livre, Magalu) foram avaliadas e deliberadamente ficaram de fora |
 
 
-<img src="assets/sec-stats.svg" alt="Estatísticas" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-stats-dark.svg"><img src="assets/sec-stats-light.svg" alt="Estatísticas" width="100%"></picture>
 
 <div align="center">
 
@@ -191,7 +191,7 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 </details>
 
 
-<img src="assets/sec-waka.svg" alt="Tempo de código (WakaTime)" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-waka-dark.svg"><img src="assets/sec-waka-light.svg" alt="Tempo de código (WakaTime)" width="100%"></picture>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-47%20hrs%2048%20mins-blue?style=flat)
@@ -276,7 +276,7 @@ TypeScript               1 repo              ██████░░░░░�
 <!--END_SECTION:waka-->
 
 
-<img src="assets/sec-snake.svg" alt="Atividade recente" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-snake-dark.svg"><img src="assets/sec-snake-light.svg" alt="Atividade recente" width="100%"></picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/conjuntivite/conjuntivite/output/github-contribution-grid-snake-dark.svg">
@@ -284,6 +284,6 @@ TypeScript               1 repo              ██████░░░░░�
 </picture>
 
 
-<img src="assets/sec-contato.svg" alt="Contato" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-contato-dark.svg"><img src="assets/sec-contato-light.svg" alt="Contato" width="100%"></picture>
 
 [![E-mail](https://img.shields.io/badge/tawan.barbosa@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tawan.barbosa@gmail.com)
