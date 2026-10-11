@@ -198,11 +198,11 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-48%20hrs%2032%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-29-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-28-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 7.8 kB Usado no armazenamento do GitHub 
+> 📦 8.2 kB Usado no armazenamento do GitHub 
  > 
 > 🏆 331 Contribuições no ano de 2026
  > 
@@ -215,21 +215,21 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 **Eu sou diurno 🐤** 
 
 ```text
-🌞 Manhã                  596 commits         █████░░░░░░░░░░░░░░░░░░░░   20.38 % 
-🌆 Tarde                  953 commits         ████████░░░░░░░░░░░░░░░░░   32.59 % 
-🌃 Noite                  1011 commits        █████████░░░░░░░░░░░░░░░░   34.58 % 
-🌙 Madrugada              364 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
+🌞 Manhã                  630 commits         █████░░░░░░░░░░░░░░░░░░░░   21.16 % 
+🌆 Tarde                  972 commits         ████████░░░░░░░░░░░░░░░░░   32.64 % 
+🌃 Noite                  1011 commits        ████████░░░░░░░░░░░░░░░░░   33.95 % 
+🌙 Madrugada              365 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.26 % 
 ```
 📅 **Sou mais produtivo em Sexta-Feira** 
 
 ```text
-Segunda-Feira            578 commits         █████░░░░░░░░░░░░░░░░░░░░   19.77 % 
-Terça-Feira              199 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.81 % 
-Quarta-Feira             330 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.29 % 
-Quinta-Feira             535 commits         █████░░░░░░░░░░░░░░░░░░░░   18.30 % 
-Sexta-Feira              723 commits         ██████░░░░░░░░░░░░░░░░░░░   24.73 % 
-Sábado                   512 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.51 % 
-Domingo                  47 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
+Segunda-Feira            578 commits         █████░░░░░░░░░░░░░░░░░░░░   19.41 % 
+Terça-Feira              199 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.68 % 
+Quarta-Feira             330 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.08 % 
+Quinta-Feira             535 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.97 % 
+Sexta-Feira              723 commits         ██████░░░░░░░░░░░░░░░░░░░   24.28 % 
+Sábado                   565 commits         █████░░░░░░░░░░░░░░░░░░░░   18.97 % 
+Domingo                  48 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
 ```
 
 
@@ -272,7 +272,7 @@ TypeScript               1 repo              █████░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 10/10/2026 10:04:24 UTC
+ Last Updated on 11/10/2026 10:14:45 UTC
 <!--END_SECTION:waka-->
 
 
