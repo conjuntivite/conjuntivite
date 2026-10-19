@@ -198,11 +198,11 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-48%20hrs%2032%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-3-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-1-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 39.6 kB Usado no armazenamento do GitHub 
+> 📦 39.7 kB Usado no armazenamento do GitHub 
  > 
 > 🏆 334 Contribuições no ano de 2026
  > 
@@ -272,7 +272,7 @@ TypeScript               1 repo              █████░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 18/10/2026 08:15:31 UTC
+ Last Updated on 19/10/2026 09:13:18 UTC
 <!--END_SECTION:waka-->
 
 
