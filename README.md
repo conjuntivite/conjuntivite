@@ -29,7 +29,7 @@ const conjuntivite = {
     "SPECIUM — Intelligent System Design",
     "WCOEN — balancete pessoal pelo WhatsApp",
     "xSPECTRO — laboratório quantitativo auditável (cripto, só dry-run)",
-    "NodeBeat — monitor de MikroTiks (internet e VPN) com alerta antes do cliente ligar",
+    "NodeBeat — monitor de MikroTiks (internet e VPN) com alerta antes do cliente ligar e inventário de rede",
   ],
   stack: {
     frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow", "Flutter Web"],
@@ -150,21 +150,26 @@ Arquitetura em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/WCOEN/bl
 | 👥 **Portal web** | Cadastro por convite, conexão do WhatsApp por QR, dashboard (saldo, 6 meses, categorias), papéis com validade de acesso e administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho, cifra as credenciais do WhatsApp no banco e nunca manda dados a modelo gratuito |
 
-<a href="https://github.com/conjuntivite/NodeBeat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-nodebeat-dark.svg"><img src="assets/card-nodebeat-light.svg" alt="NodeBeat — monitor de roteadores MikroTik com tela de monitor cardíaco e alertas por webhook" width="100%"></picture></a>
+<a href="https://github.com/conjuntivite/NodeBeat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-nodebeat-dark.svg"><img src="assets/card-nodebeat-light.svg" alt="NodeBeat — monitor de roteadores MikroTik com tela de monitor cardíaco, alertas e inventário de rede" width="100%"></picture></a>
 
 Monitor interno dos roteadores MikroTik (RouterOS v6 e v7) instalados nos condomínios atendidos. A ideia é
 simples: a equipe precisa saber que a internet ou a VPN de um cliente caiu **antes** do cliente ligar
 reclamando. O sistema lê cada roteador pela API-SSL, com um usuário só de leitura, e mostra tudo num painel
 que imita um monitor cardíaco: um bip por batida com tudo no ar, e o apito contínuo quando um roteador fica fora.
+De hora em hora ele também guarda o inventário de rede de cada roteador, para a equipe conferir se uma faixa de IP,
+uma porta ou um IP interno está livre antes de montar um condomínio novo ou instalar um equipamento.
 
 | | |
 |---|---|
 | 💓 **Painel monitor cardíaco** | Traçado de ECG por roteador; o apito contínuo só toca depois de 2 min fora, para não alarmar por uma leitura isolada. Tema claro e escuro (Trade UI) |
+| 🔊 **Som configurável** | Bip de batimento e apito de perda ligados separadamente (ou só o visual); dentro de um condomínio o som segue só aquele roteador |
+| 🗺️ **Inventário de rede** | Faixas de IP de cada condomínio (inclusive as que a VPN anuncia) e as da sede, com aviso de sobreposição e "conferir faixa" antes de configurar o roteador novo |
+| 🔌 **Portas e IPs** | Redirecionamentos de porta, serviços abertos para a internet e IPs vistos no DHCP e na ARP, com "conferir porta" e "conferir IP" e aviso quando a leitura está desatualizada |
 | 🔍 **Diagnóstico da queda** | Ping no IP público (link do provedor), ping no IP do túnel (VPN) e leitura da API: separa **Offline**, **VPN caiu** e **Erro de acesso** |
 | 🚨 **Alertas confirmados** | Webhook de queda e de retorno (início, fim e duração) só depois de 2 min; se a internet da própria sede cair, os alertas congelam em vez de disparar em massa |
 | 📊 **Saúde do roteador** | CPU, memória, uptime, versão do RouterOS e interfaces vigiadas (link principal, link reserva, portas da LAN) |
 | 🔐 **Acesso seguro** | API-SSL com o certificado fixado por SHA-256, senhas cifradas no banco e usuário de monitoramento restrito por IP |
-| 🐳 **Deploy** | Docker Compose (FastAPI, worker, MongoDB, Redis e nginx com HTTPS) num CT LXC do Proxmox; 117 testes no backend (pytest) e 40 no front (Flutter) |
+| 🐳 **Deploy** | Docker Compose (FastAPI, worker, MongoDB, Redis e nginx com HTTPS) num CT LXC do Proxmox; 169 testes no backend (pytest) e 62 no front (Flutter) |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-xspectro-dark.svg"><img src="assets/card-xspectro-light.svg" alt="xSPECTRO — laboratório quantitativo auditável de trading cripto, só dry-run (repositório privado)" width="100%"></picture>
 
