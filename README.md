@@ -4,6 +4,7 @@
 
 <a href="https://github.com/conjuntivite/SPECIUM"><b>SPECIUM</b></a> &nbsp;·&nbsp;
 <a href="https://github.com/conjuntivite/WCOEN"><b>WCOEN</b></a> &nbsp;·&nbsp;
+<a href="https://github.com/conjuntivite/NodeBeat"><b>NodeBeat</b></a> &nbsp;·&nbsp;
 <a href="https://github.com/conjuntivite/BUSCADOR-V1"><b>BUSCADOR</b></a>
 
 
@@ -28,10 +29,11 @@ const conjuntivite = {
     "SPECIUM — Intelligent System Design",
     "WCOEN — balancete pessoal pelo WhatsApp",
     "xSPECTRO — laboratório quantitativo auditável (cripto, só dry-run)",
+    "NodeBeat — monitor de MikroTiks (internet e VPN) com alerta antes do cliente ligar",
   ],
   stack: {
-    frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow"],
-    backend: ["Node.js (puro, sem framework)", "TypeScript", "MongoDB", "PostgreSQL", "Docker", "Baileys (WhatsApp)"],
+    frontend: ["React 19", "Vite", "Tailwind CSS", "shadcn/ui", "React Flow", "Flutter Web"],
+    backend: ["Node.js (puro, sem framework)", "TypeScript", "Python (FastAPI)", "MongoDB", "PostgreSQL", "Redis", "Docker", "Baileys (WhatsApp)"],
     mapas: ["Leaflet", "MapLibre", "OpenStreetMap"],
     quant: ["Python", "Freqtrade", "pandas", "PyTorch (ROCm)"],
     ia: ["OpenRouter (DeepSeek V4 Flash)", "Claude Code"],
@@ -52,6 +54,7 @@ const conjuntivite = {
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter_Web-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 **Back-end**<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -60,6 +63,8 @@ const conjuntivite = {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_(Baileys)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
@@ -145,6 +150,22 @@ Arquitetura em [`docs/ARCHITECTURE.md`](https://github.com/conjuntivite/WCOEN/bl
 | 👥 **Portal web** | Cadastro por convite, conexão do WhatsApp por QR, dashboard (saldo, 6 meses, categorias), papéis com validade de acesso e administração |
 | 🛡️ **Confiabilidade** | Só confirma depois de gravar, recupera mensagens enviadas com o bot offline, reconecta sozinho, cifra as credenciais do WhatsApp no banco e nunca manda dados a modelo gratuito |
 
+<a href="https://github.com/conjuntivite/NodeBeat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-nodebeat-dark.svg"><img src="assets/card-nodebeat-light.svg" alt="NodeBeat — monitor de roteadores MikroTik com tela de monitor cardíaco e alertas por webhook" width="100%"></picture></a>
+
+Monitor interno dos roteadores MikroTik (RouterOS v6 e v7) instalados nos condomínios atendidos. A ideia é
+simples: a equipe precisa saber que a internet ou a VPN de um cliente caiu **antes** do cliente ligar
+reclamando. O sistema lê cada roteador pela API-SSL, com um usuário só de leitura, e mostra tudo num painel
+que imita um monitor cardíaco: um bip por batida com tudo no ar, e o apito contínuo quando um roteador fica fora.
+
+| | |
+|---|---|
+| 💓 **Painel monitor cardíaco** | Traçado de ECG por roteador; o apito contínuo só toca depois de 2 min fora, para não alarmar por uma leitura isolada. Tema claro e escuro (Trade UI) |
+| 🔍 **Diagnóstico da queda** | Ping no IP público (link do provedor), ping no IP do túnel (VPN) e leitura da API: separa **Offline**, **VPN caiu** e **Erro de acesso** |
+| 🚨 **Alertas confirmados** | Webhook de queda e de retorno (início, fim e duração) só depois de 2 min; se a internet da própria sede cair, os alertas congelam em vez de disparar em massa |
+| 📊 **Saúde do roteador** | CPU, memória, uptime, versão do RouterOS e interfaces vigiadas (link principal, link reserva, portas da LAN) |
+| 🔐 **Acesso seguro** | API-SSL com o certificado fixado por SHA-256, senhas cifradas no banco e usuário de monitoramento restrito por IP |
+| 🐳 **Deploy** | Docker Compose (FastAPI, worker, MongoDB, Redis e nginx com HTTPS) num CT LXC do Proxmox; 117 testes no backend (pytest) e 40 no front (Flutter) |
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-xspectro-dark.svg"><img src="assets/card-xspectro-light.svg" alt="xSPECTRO — laboratório quantitativo auditável de trading cripto, só dry-run (repositório privado)" width="100%"></picture>
 
 Laboratório de pesquisa quantitativa em cripto (Binance Spot, só long e **só dry-run**). A regra do projeto é
@@ -172,6 +193,19 @@ framework), front-end estático em JS vanilla e testes com o runner nativo do No
 | 🎯 **Oferta exata** | Normaliza os títulos e filtra o que não bate com o modelo pedido, em vez de listar tudo que aparece na busca |
 | ⚖️ **Comparação de ficha técnica** | Compara 2 ou 3 ofertas: CPU, GPU e disco com benchmark do PassMark (cache de 24 h); RAM, placa-mãe e fonte lidas do título |
 | 🚧 **Sem burlar proteção anti-bot** | Lojas com bloqueio (Terabyte, Pichau, Mercado Livre, Magalu) foram avaliadas e deliberadamente ficaram de fora |
+
+<a href="https://github.com/conjuntivite/conversor-dec-intelbras"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-conversor-dark.svg"><img src="assets/card-conversor-light.svg" alt="Conversor DEC ⇄ HEX — converte código decimal para o hexadecimal dos leitores faciais Intelbras" width="100%"></picture></a>
+
+Ferramenta de uma página para a equipe de instalação: converte o código decimal impresso em tarjas e chaveiros
+para o hexadecimal que os leitores faciais Intelbras esperam (com a ordem dos bytes invertida), e faz o caminho
+de volta. Sem servidor de aplicação: HTML e JavaScript estáticos.
+
+| | |
+|---|---|
+| 🔁 **Quatro conversões** | Decimal → HEX Intelbras, decimal → HEX padrão e os dois caminhos de volta, com validação do limite de 32 bits |
+| 📷 **Leitura pela câmera** | Lê o código de barras (Code 39) das tarjas veiculares direto no navegador, com ZXing |
+| 📋 **Copiar com um toque** | Copia o resultado até em conexão sem `navigator.clipboard` |
+| 🎨 **Trade UI** | Identidade própria (gato-fantasma roxo), tema claro e escuro; servido por nginx com HTTPS, exigido pela câmera |
 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-stats-dark.svg"><img src="assets/sec-stats-light.svg" alt="Estatísticas" width="100%"></picture>
