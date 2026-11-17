@@ -233,42 +233,38 @@ de volta. Sem servidor de aplicação: HTML e JavaScript estáticos.
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-waka-dark.svg"><img src="assets/sec-waka-light.svg" alt="Tempo de código (WakaTime)" width="100%"></picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-47%20hrs%2048%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-48%20hrs%2032%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-0-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-6-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 39.7 kB Usado no armazenamento do GitHub 
+> 📦 40.4 kB Usado no armazenamento do GitHub 
  > 
-> 🏆 334 Contribuições no ano de 2026
+> 🏆 409 Contribuições no ano de 2026
  > 
 > 🚫 Não aberto para contratação
  > 
-> 📜 6 Repositórios Públicos 
+> 📜 9 Repositórios Públicos 
  > 
 > 🔑 1 Repositórios Privados 
  > 
 **Eu sou diurno 🐤** 
 
 ```text
-🌞 Manhã                  717 commits         █████░░░░░░░░░░░░░░░░░░░░   19.36 % 
-🌆 Tarde                  1201 commits        ████████░░░░░░░░░░░░░░░░░   32.42 % 
-🌃 Noite                  1327 commits        █████████░░░░░░░░░░░░░░░░   35.83 % 
-🌙 Madrugada              459 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.39 % 
+🌞 Manhã                  745 commits         █████░░░░░░░░░░░░░░░░░░░░   19.66 % 
+🌆 Tarde                  1259 commits        ████████░░░░░░░░░░░░░░░░░   33.22 % 
+🌃 Noite                  1327 commits        █████████░░░░░░░░░░░░░░░░   35.01 % 
+🌙 Madrugada              459 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.11 % 
 ```
 📅 **Sou mais produtivo em Sexta-Feira** 
 
 ```text
-Segunda-Feira            658 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.76 % 
-Terça-Feira              250 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.75 % 
-Quarta-Feira             464 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.53 % 
-Quinta-Feira             772 commits         █████░░░░░░░░░░░░░░░░░░░░   20.84 % 
-Sexta-Feira              857 commits         ██████░░░░░░░░░░░░░░░░░░░   23.14 % 
-Sábado                   624 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.85 % 
-Domingo                  79 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
+Segunda-Feira            683 commits         █████░░░░░░░░░░░░░░░░░░░░   18.02 % 
+Terça-Feira              270 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
+Quarta-Feira             465 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
+Quinta-Feira             799 commits         █████░░░░░░░░░░░░░░░░░░░░   21.08 % 
+Sexta-Feira              870 commits         ██████░░░░░░░░░░░░░░░░░░░   22.96 % 
+Sábado                   624 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.46 % 
+Domingo                  79 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   02.08 % 
 ```
 
 
@@ -296,12 +292,14 @@ Nenhuma atividade rastreada esta semana
 No AI Coding Activity Tracked This Week
 ```
 
-**Eu geralmente programo em Python** 
+**Eu geralmente programo em CSS** 
 
 ```text
-Python                   2 repos             ██████████░░░░░░░░░░░░░░░   40.00 % 
-JavaScript               2 repos             ██████████░░░░░░░░░░░░░░░   40.00 % 
-TypeScript               1 repo              █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+CSS                      2 repos             ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+Python                   2 repos             ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+JavaScript               2 repos             ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+Dart                     1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
+TypeScript               1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
 ```
 
 
@@ -311,7 +309,7 @@ TypeScript               1 repo              █████░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 01/11/2026 10:44:34 UTC
+ Last Updated on 17/11/2026 12:17:31 UTC
 <!--END_SECTION:waka-->
 
 
