@@ -233,13 +233,17 @@ de volta. Sem servidor de aplicação: HTML e JavaScript estáticos.
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-waka-dark.svg"><img src="assets/sec-waka-light.svg" alt="Tempo de código (WakaTime)" width="100%"></picture>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-47%20hrs%2048%20mins-blue?style=flat)
+
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-48%20hrs%2032%20mins-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Visualizac%C3%B5es%20do%20perfil-6-blue?style=flat)
 
 **🐱 Meus dados no GitHub** 
 
-> 📦 40.4 kB Usado no armazenamento do GitHub 
+> 📦 40.8 kB Usado no armazenamento do GitHub 
  > 
-> 🏆 409 Contribuições no ano de 2026
+> 🏆 415 Contribuições no ano de 2026
  > 
 > 🚫 Não aberto para contratação
  > 
@@ -250,20 +254,20 @@ de volta. Sem servidor de aplicação: HTML e JavaScript estáticos.
 **Eu sou diurno 🐤** 
 
 ```text
-🌞 Manhã                  745 commits         █████░░░░░░░░░░░░░░░░░░░░   19.66 % 
-🌆 Tarde                  1259 commits        ████████░░░░░░░░░░░░░░░░░   33.22 % 
-🌃 Noite                  1327 commits        █████████░░░░░░░░░░░░░░░░   35.01 % 
-🌙 Madrugada              459 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.11 % 
+🌞 Manhã                  747 commits         █████░░░░░░░░░░░░░░░░░░░░   19.68 % 
+🌆 Tarde                  1263 commits        ████████░░░░░░░░░░░░░░░░░   33.27 % 
+🌃 Noite                  1327 commits        █████████░░░░░░░░░░░░░░░░   34.96 % 
+🌙 Madrugada              459 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.09 % 
 ```
 📅 **Sou mais produtivo em Sexta-Feira** 
 
 ```text
-Segunda-Feira            683 commits         █████░░░░░░░░░░░░░░░░░░░░   18.02 % 
-Terça-Feira              270 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
-Quarta-Feira             465 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
-Quinta-Feira             799 commits         █████░░░░░░░░░░░░░░░░░░░░   21.08 % 
-Sexta-Feira              870 commits         ██████░░░░░░░░░░░░░░░░░░░   22.96 % 
-Sábado                   624 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.46 % 
+Segunda-Feira            683 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.99 % 
+Terça-Feira              276 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.27 % 
+Quarta-Feira             465 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
+Quinta-Feira             799 commits         █████░░░░░░░░░░░░░░░░░░░░   21.05 % 
+Sexta-Feira              870 commits         ██████░░░░░░░░░░░░░░░░░░░   22.92 % 
+Sábado                   624 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.44 % 
 Domingo                  79 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   02.08 % 
 ```
 
@@ -274,22 +278,41 @@ Domingo                  79 commits          █░░░░░░░░░░�
 🕑︎ Fuso horário: America/Sao_Paulo
 
 💬 Linguagens de programação: 
-Nenhuma atividade rastreada esta semana
+Other                    3 mins              █████████████████████████   98.44 % 
+INI                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.56 % 
 
 🔥 Editores: 
-Nenhuma atividade rastreada esta semana
+Claude Code              3 mins              █████████████████████████   98.44 % 
+Unknown Editor           0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.56 % 
 
 🐱‍💻 Projetos: 
-Nenhuma atividade rastreada esta semana
+conjuntivite             3 mins              █████████████████████████   98.44 % 
+Unknown Project          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.56 % 
 
 💻 Sistema operacional: 
-Nenhuma atividade rastreada esta semana
+Windows                  3 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 3 mins (100.0%)
+
+✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
+
+🔤 5,315 Input Tokens, 2,295 Output Tokens
+
+💵 $0.14 Estimated AI Cost This Week
+
+🧠 1 AI Sessions, 1 AI Prompts
+
+Opus                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
+📝 Concise Prompter — average 9 characters per prompt
+🎯 One-Shot Prompter — average 1 prompts per session
+🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
 
 **Eu geralmente programo em CSS** 
@@ -309,7 +332,7 @@ TypeScript               1 repo              ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/conjuntivite/conjuntivite/main/assets/bar_graph.png)
 
 
- Last Updated on 17/11/2026 12:17:31 UTC
+ Last Updated on 18/11/2026 12:04:56 UTC
 <!--END_SECTION:waka-->
 
 
